@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styles from './Counter.module.scss'
 
 interface Props {
   /**Initalize the counter */
@@ -13,7 +14,7 @@ const Counter = ({ initialCounter = 0 }: Props) => {
   }
 
   return (
-    <div>
+    <div className={styles.Counter_Button}>
       <button onClick={onClickHandler}>Count {count}</button>
     </div>
   )
