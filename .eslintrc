@@ -9,6 +9,7 @@
         "version": "detect"
       }
     },
+    "plugins": ["prettier"],
     "extends": [
       "plugin:react/recommended",
       "plugin:react-hooks/recommended",
@@ -28,5 +29,6 @@
       "react/jsx-uses-react": "off",
       "react/react-in-jsx-scope": "off",
       "@typescript-eslint/explicit-module-boundary-types": "off",
+      "prettier/prettier": "error"
     }
   }

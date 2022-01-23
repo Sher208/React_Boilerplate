@@ -1,6 +1,6 @@
 import React from 'react'
 import Counter from './components/Counter'
-import IMAGES from './images/react.png'
+import IMAGES from './assets/images/react.png'
 import './styles.css'
 
 export const App = () => {
